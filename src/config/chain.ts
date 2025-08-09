@@ -1,0 +1,1 @@
+export const supportChain = [56,31337];
