@@ -16,7 +16,7 @@ const agent = new SocksProxyAgent(proxyUrl);
 const apiKey = process.env.OPENAI_API_KEY;
 const openai = new OpenAI({
     apiKey: apiKey,
-    httpAgent: agent
+    // httpAgent: agent
 });
 
 

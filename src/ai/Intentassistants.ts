@@ -17,7 +17,7 @@ const agent = new SocksProxyAgent(proxyUrl);
 const apiKey = process.env.OPENAI_API_KEY;
 const openai = new OpenAI({
     apiKey,
-    httpAgent: agent
+    // httpAgent: agent
 });
 
 // 用于缓存用户线程 ID（实际可用 Redis）
