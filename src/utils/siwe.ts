@@ -2,8 +2,8 @@
 import { SiweMessage } from 'siwe';
 import { ethers } from 'ethers';
 const scheme = 'https';
-const domain = "localhost";
-const origin = "https://localhost/api/verfiy";
+const domain = "Intentor";
+const origin = "http://207.148.8.209/api/verfiy";
 
 
 export function createSiweMessage(address: string, 

@@ -11,7 +11,7 @@ import { errorResponse, Errors } from '../utils/response';
 
 const verifyRouter = express.Router();
 
-const NONCE_EXPIRE = 300;
+const NONCE_EXPIRE = 300000;
 
 //GET /api/verify/signinfo
 verifyRouter.get('/signinfo', async (req: any, res: any) => {
