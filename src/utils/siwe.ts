@@ -2,7 +2,7 @@
 import { SiweMessage } from 'siwe';
 import { ethers } from 'ethers';
 const scheme = 'https';
-const domain = "Intentor";
+const domain = "intentor.com";
 const origin = "http://207.148.8.209/api/verfiy";
 
 
